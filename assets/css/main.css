@@ -11,3 +11,17 @@ body {
   font-size: 16px;
   scroll-behavior: smooth;
 }
+
+.container {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
