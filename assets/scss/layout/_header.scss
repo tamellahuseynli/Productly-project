@@ -1,0 +1,33 @@
+
+
+.header{
+   
+    &__wrraper {                                                                                                                                     
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 120px 26px;
+    margin: 1rem 8%;
+}
+ &__menu a{
+    text-decoration: none;
+  margin-left:50px ;
+  color: $title-color;
+}
+.header__menu{
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+
+ }
+}
+
+.header__line{
+    border-bottom: 3px solid #fff;
+    background: #C4C4C4;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+}
+
