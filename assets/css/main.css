@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 .footer {
   position: fixed;
   width: 100%;
@@ -75,15 +80,20 @@ a {
           justify-content: space-between;
   padding: 1rem 0;
 }
-.header__menu a {
-  margin-left: 50px;
-  color: #2f281e;
-}
 .header .header__menu {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 15px;
   line-height: 28px;
+}
+.header .header__menu-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+.header .header__menu-link {
+  color: #2f281e;
 }
 
 .header__line {
