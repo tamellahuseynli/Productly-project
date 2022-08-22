@@ -4,3 +4,131 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.container {
+  max-width: 1440px;
+  width: 90vw;
+  height: 78px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 315px;
+  padding: 58px 0 52px;
+  bottom: 0;
+}
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__title {
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #2f281e;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer__list {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.footer__list a:hover {
+  border-bottom: 3px solid #019fb6;
+}
+
+.footer__list-color {
+  color: #ff9900;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__list li a {
+  text-decoration: none;
+  color: #544837;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0;
+}
+.header__menu a {
+  margin-left: 50px;
+  color: #2f281e;
+}
+.header .header__menu {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.header__line {
+  border-bottom: 3px solid #fff;
+  background: #c4c4c4;
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+      -ms-transform: matrix(1, 0, 0, -1, 0, 0);
+          transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.header__button {
+  font-family: "Open Sans";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.header__button-1 {
+  padding: 10px;
+  margin-right: 14px;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}
+
+.header__button-1:hover {
+  border-bottom: 3px solid #019fb6;
+}
+
+.header__button-2 {
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #ff9900;
+}
+
+.header__menu a:hover {
+  border-bottom: 3px solid #019fb6;
+}
