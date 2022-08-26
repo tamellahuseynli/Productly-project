@@ -1,17 +1,18 @@
-.home {
+.hero {
+    padding-top: 30px;
     &__wrapper {
         display: flex;
-        padding: 30px, 122px;
+        // padding: 30px, 122px;
     }
 
     &__left-title {
         width: 550px;
         margin: 83px 0 30px;
-        font-family: $font-Poppins ;
+        font-family: $font-Poppins;
         font-size: $fz-44px;
         font-weight: 700;
         line-height: 54px;
-        color: $title-color ;
+        color: $title-color;
     }
 
     &__left-text {
@@ -29,15 +30,14 @@
     &__btns {
         display: flex;
         gap: 44px;
-
     }
-
     &__btn {
         width: 174px;
-
         padding: 16px;
         text-align: center;
-        background-color: $clr-secondary ;
+        background-color: $clr-secondary;
+        border: 1px solid $clr-secondary;
+        transition: 0.4s;
         color: $color-white;
         border-radius: 4px;
         font-family: $font-Open;
@@ -54,9 +54,23 @@
 
     &__btn-typhograpy {
         margin-top: 17px;
-     
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        svg {
+            margin-right: 10px;
+        }
+        &:hover {
+            svg {
+                path {
+                    fill: $cherry-color;
+                }
+            }
+            .hero__btn-text {
+                color: $cherry-color;
+            }
+        }
     }
-   
 
     &__btn-text {
         font-family: $font-Poppins;
@@ -68,12 +82,11 @@
     }
 
     &__btn-text:hover {
-        color: $cherry-color;
+        // color: $cherry-color;
     }
-
 }
 
-.home {
+.hero {
     &__right-img {
         background-image: url("/assets/images/Image-1.svg");
         width: 100%;
@@ -82,11 +95,10 @@
         background-size: cover;
         padding: 29px 0 0 66px;
     }
-
 }
 
 .services {
-    background-image: url('/assets/images/Bg\ \(1\).svg');
+    background-image: url("/assets/images/Bg\ \(1\).svg");
     background-repeat: no-repeat;
     background-position: bottom;
 
@@ -111,7 +123,7 @@
     }
 
     &__icon {
-        margin: 0 100px 0 0;
+        // margin: 0 100px 0 0;
     }
 
     &__title-text {
@@ -130,7 +142,7 @@
         font-weight: 400;
         font-size: $fz-16px;
         line-height: 26px;
-        color: $brown-color ;
+        color: $brown-color;
     }
 
     &__btn {
@@ -151,5 +163,4 @@
         background-color: $color-white;
         color: $cherry-color;
     }
- 
 }
