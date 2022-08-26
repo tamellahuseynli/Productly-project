@@ -104,6 +104,9 @@ li {
 .header__button--blue {
   border: 1px solid #bcd0e5;
 }
+.header__button--blue:hover {
+  background-color: #BCD0E5;
+}
 .header__button--orange {
   border: 1px solid #ff9900;
   background-color: #ff9900;
@@ -152,6 +155,7 @@ li {
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
+  border: 1px solid #ff9900;
   color: #fff;
 }
 .hero__btn:hover {
@@ -236,9 +240,22 @@ li {
   color: #fff;
   background-color: #FF7549;
   padding: 16px;
+  border: 1px solid #FF7549;
   cursor: pointer;
 }
 .services__btn:hover {
   background-color: #fff;
   color: #FF7549;
+}
+
+.products__wrraper {
+  padding-top: 30px;
+}
+.products__title {
+  margin-bottom: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  color: #2f281e;
 }

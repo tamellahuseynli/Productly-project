@@ -34,7 +34,6 @@
 
     &__btn {
         width: 174px;
-
         padding: 16px;
         text-align: center;
         background-color: $clr-secondary ;
@@ -44,6 +43,7 @@
         font-weight: 700;
         font-size: $fz-16px;
         line-height: 22px;
+        border: 1px solid $clr-secondary;
         color: $color-white;
 
         &:hover {
@@ -56,6 +56,7 @@
         margin-top: 17px;
      
     }
+ 
    
 
     &__btn-text {
@@ -144,6 +145,7 @@
         color: $color-white;
         background-color: $cherry-color;
         padding: 16px;
+        border: 1px solid $cherry-color;
         cursor: pointer;
     }
 
@@ -152,4 +154,18 @@
         color: $cherry-color;
     }
  
+}
+
+.products{
+    &__wrraper{
+        padding-top: 30px;
+    }
+    &__title{
+        margin-bottom: 14px;
+        font-family: $font-Open;
+        font-weight: 700;
+        font-size: $fz-34px;
+        line-height: 46px;
+        color:$title-color ;
+    }
 }
