@@ -39,7 +39,14 @@
     transition: 0.2s linear;
     &--blue {
       border: 1px solid #bcd0e5;
+      &:hover {
+        background-color: $color-blue;
+    
+      }
     }
+   
+    
+  
     &--orange {
       border: 1px solid $clr-secondary;
       background-color: $clr-secondary;
