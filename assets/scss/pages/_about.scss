@@ -1,0 +1,57 @@
+.about {
+  &__wrraper {
+    padding: 124px 0;
+  }
+  &__title {
+    font-family: $font-Open;
+    font-weight: 700;
+    font-size: $fz-34px;
+    line-height: 46px;
+    color: $title-color;
+    margin-bottom: 13px;
+  }
+  &__desc {
+    font-family: $font-Open;
+    font-weight: 400;
+    font-size: $fz-16px;
+    line-height: 26px;
+    color: $brown-color;
+    margin-bottom: 41px;
+  }
+  &__cards {
+    display: flex;
+    gap: 70px !important;
+  }
+  &__card {
+    width: 345px;
+    height: 128px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    display: flex;
+  }
+  &__card-items {
+    padding: 20px;
+  }
+  &__card-title {
+    width: 222px;
+    font-family: $font-Open;
+    font-weight: 700;
+    font-size: $fz-16px;
+    line-height: 26px;
+    color: $title-color;
+  }
+  &__card-desc {
+    font-family: $font-Open;
+    font-weight: 400;
+    font-size: $fz-14px;
+    line-height: 26px;
+    color: $brown-color;
+  }
+  &__card-email {
+    font-family: $font-Open;
+    font-weight: 400;
+    font-size: $fz-14px;
+    line-height: 26px;
+    color: #1943ef !important;
+  }
+}
