@@ -1,0 +1,86 @@
+.contac {
+  &__wrapper {
+    padding: 100px 0 56px;
+  }
+  &__category {
+    display: flex;
+    background-color: $color-bg;
+    padding: 0 120px 90px;
+  }
+
+  &__title {
+    font-family: $font-Open;
+    font-style: bold;
+
+    font-size: $fz-34px;
+    line-height: 46px;
+    vertical-align: top;
+    margin-top: 62px;
+    color: $title-color;
+  }
+  &__desc {
+    font-family: $font-Open;
+    line-height: 26px;
+    vertical-align: top;
+    margin-top: 17px;
+    color: $brown-color;
+  }
+  &__info {
+    margin-top: 59px;
+    align-items: center !important;
+    font-family: $font-Open;
+    font-size: $fz-25px;
+    line-height: 26px;
+    color: $brown-color;
+    svg {
+      margin-right: 11px;
+    }
+  }
+  &__mail {
+    margin-top: 19px;
+  }
+  &__survey {
+    margin-left: 87px;
+  }
+  &__anket {
+    display: flex;
+    gap: 15px;
+    margin-top: 124px;
+  }
+  &__input {
+    width: 280px;
+    padding: 5px 23px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-family: $font-Open;
+    line-height: 26px;
+  }
+  &__text-are {
+    margin-top: 17px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-family: $font-Open;
+    line-height: 26px;
+    padding: 0 21px;
+  }
+  &__button {
+    width: 117px;
+    font-family: $font-Open;
+    font-style: bold;
+    font-size: $fz-16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: $clr-secondary;
+    border: 1px solid $clr-secondary;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2 linear !important;
+  }
+  &__button:hover {
+    background-color: $color-white;
+    color: $clr-secondary;
+  }
+}

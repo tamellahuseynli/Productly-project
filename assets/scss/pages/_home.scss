@@ -184,6 +184,11 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 30px;
+    cursor: pointer;
+  }
+  &__activity {
+    background-color: $clr-secondary;
+    color: #ffffff !important;
   }
   &__buttons {
     font-family: $font-Open;
@@ -196,7 +201,7 @@
     text-align: center;
     padding: 0px 14px;
   }
-  &__orange:hover {
+  &__buttons:hover {
     background-color: $clr-secondary;
     color: $color-white;
   }
@@ -218,15 +223,18 @@
     padding: 0px 14px;
     margin-top: 29px;
   }
-  &__card {
+  &__button-grey:hover {
+    background-color: $clr-secondary;
+    color: $color-white;
+  }
+  &__cards {
     display: grid;
     gap: 22px;
     grid-template-columns: repeat(3, 1fr);
   }
-  &__card-item {
+  &__card {
     height: 100%;
-    width: 377px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
     background: #ffffff;
     border-radius: 8px;
     overflow: hidden;
@@ -251,12 +259,15 @@
   &__title-wiev:hover {
     color: $clr-secondary;
   }
+  &__title-activity {
+    color: $clr-secondary;
+  }
 
   &__image-bg {
     width: 787px;
     grid-column: span 2;
   }
-  &__card--title-bg {
+  &__card--title-expand {
     width: 719px;
     font-size: $fz-24px;
     font-family: $font-Open;
@@ -265,5 +276,8 @@
     font-weight: 700;
     color: $title-color;
     padding: 0 14px;
+  }
+  &__card--title-expand:hover {
+    color: $clr-secondary;
   }
 }
