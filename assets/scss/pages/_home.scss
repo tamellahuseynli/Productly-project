@@ -85,12 +85,16 @@
 
 .hero {
   &__right-img {
-    background-image: url("/assets/images/Image-1.svg");
-    width: 100%;
+    // background-image: url("/assets/images/Image-1.svg");
+
     background-repeat: no-repeat;
-    height: 490px;
     background-size: cover;
     padding: 29px 0 0 66px;
+    // overflow: hidden;
+    svg {
+      width: 639.29px;
+      height: 494.83px;
+    }
   }
 }
 

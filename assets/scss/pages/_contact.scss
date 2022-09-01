@@ -1,11 +1,12 @@
 .contac {
+  background-color: $color-bg;
   &__wrapper {
-    padding: 100px 0 56px;
+    // padding: 100px 0 56px;
   }
   &__category {
     display: flex;
-    background-color: $color-bg;
-    padding: 0 120px 90px;
+    // background-color: $color-bg;
+    padding-bottom: 90px;
   }
 
   &__title {
@@ -42,7 +43,7 @@
   &__survey {
     margin-left: 87px;
   }
-  &__anket {
+  &__form {
     display: flex;
     gap: 15px;
     margin-top: 124px;
@@ -50,18 +51,28 @@
   &__input {
     width: 280px;
     padding: 5px 23px;
-    border: 1px solid #fff;
+    border: 1px solid $clr-secondary;
     border-radius: 5px;
     font-family: $font-Open;
     line-height: 26px;
+    &::placeholder {
+      color: $clr-secondary;
+    }
+    &--mail {
+      border: 1px solid $cherry-color;
+      &::placeholder {
+        color: $cherry-color;
+      }
+    }
   }
-  &__text-are {
+  &__textarea {
     margin-top: 17px;
     border: 1px solid #fff;
     border-radius: 5px;
     font-family: $font-Open;
     line-height: 26px;
     padding: 0 21px;
+    width: 100%;
   }
   &__button {
     width: 117px;
@@ -77,7 +88,7 @@
     border-radius: 4px;
     color: #fff;
     cursor: pointer;
-    transition: 0.2 linear !important;
+    transition: 0.2s linear !important;
   }
   &__button:hover {
     background-color: $color-white;
