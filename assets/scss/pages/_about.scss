@@ -59,4 +59,58 @@
     object-fit: cover;
     object-position: top center;
   }
+  &__round {
+    display: none;
+    margin-top: 30px;
+    text-align: center;
+  }
 }
+
+@media (max-width: 1024px) {
+  .about {
+    &__title {
+      text-align: center;
+    }
+    &__desc {
+      text-align: center;
+    }
+    &__cards {
+      overflow: hidden;
+    }
+    &__card-img {
+      width: 200px;
+    }
+    &__round {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    &__desc {
+      font-size: 16px;
+    }
+    &__cards {
+      overflow: hidden;
+    }
+    &__card {
+      margin: auto;
+    }
+    &__card-hide {
+      display: none;
+    }
+    &__round {
+      display: block;
+    }
+  }
+}
+
+// @media (min-width: 768px) {
+// }
+
+// @media (min-width: 992px) {
+// }
+
+// @media (min-width: 1200px) {
+// }

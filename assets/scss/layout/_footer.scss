@@ -45,15 +45,17 @@
   color: $brown-color;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer {
     &__wrapper {
-      // display: flex;
-      // justify-content: space-between;
-      flex-direction: column;
+      display: block;
+    }
+    &__menu {
+      margin-top: 34px;
     }
   }
 }
+
 @media (max-width: 576px) {
   .footer {
     &__menu {

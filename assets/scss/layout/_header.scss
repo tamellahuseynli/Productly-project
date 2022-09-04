@@ -93,11 +93,29 @@
   }
 }
 
-@media (max-width: 320px) {
-  .header__logo {
-    img {
-      width: 80%;
+// @media (max-width: 320px) {
+//   .header__logo {
+//     img {
+//       width: 80%;
+//     }
+//   }
+// }
+
+@media (max-width: 576px) {
+  .header {
+    &__wrapper {
+      flex-direction: row-reverse;
     }
+    &__nav {
+      &-btn {
+        i {
+          color: $brown-color;
+        }
+      }
+    }
+  }
+  .header__logo {
+    justify-content: center;
   }
 }
 
